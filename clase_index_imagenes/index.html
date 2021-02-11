@@ -11,27 +11,44 @@
         <link rel="stylesheet" href="estilosElliot.css">
     </head>
 
+    <header class="header-block">
+        <figure class="header-content">
+            <a class="header-content__logo" href="#">
+                <img class="header-content__logo--over" src="../imagenes/logo.png" alt="logo"/>
+            </a>            
+        </figure>
+        
+        <span class="header-content__title">Soy la lista del super!</span>
+        <nav class="header-block__nav">
+            <input type="text" placeholder="Receta" size="40"/>
+        </nav>
+    </header>      
+
     <body>
-        <header><h1>Soy la lista del super!</h1></header>        
+          
 
-    <main class="mainElliot">
-        <ul class="inLine">           
-            <li>
+    <main class="main-content">
 
-                <p>Frutas</p> 
+        <ul class="main-content__list-block">       
 
-                <ol>
-                    <li><a href="https://duckduckgo.com/?q=Manzana&t=opera&ia=web" target="_blank">Manzana</a>
+            <li class="list__element">
+
+                <p class="list__element--title">Frutas</p> 
+
+                <ol class="list-element__food-view">
+                    <li><span class="list__element--description">Manzana</span>
                     <figure>
-                        <img class="imageElliot" src="../imagenes/manzana.jpg" alt="manzana" />
+                        <a href="https://duckduckgo.com/?q=Manzana&t=opera&ia=web" target="_blank"><img class="imageElliot" src="../imagenes/manzana.jpg" alt="manzana" /></a>
                     </figure>
                     </li>
                 </ol>
 
-                <ol>
-                    <li><a href="https://duckduckgo.com/?q=Platano&t=opera&ia=web" target="_blank">Platano</a>
+                <ol class="list-element__food-view">
+                    <li><span class="list__element--description">Platano</span>
                     <figure>
+                        <a href="https://duckduckgo.com/?q=Platano&t=opera&ia=web" target="_blank">
                         <img class="imageElliot" src="../imagenes/platano.jpg" alt="platano" />
+                        </a>
                     </figure>
                     </li>
                 </ol>
@@ -39,22 +56,22 @@
             </li>         
         </ul>
 
-        <ul class="inLine">          
-            <li>
-                <p>Carnes</p>  
+        <ul class="main-content__list-block">          
+            <li class="list__element">
+                <p class="list__element--title"> Carnes</p>  
 
-                <ol>
-                    <li><a href="https://duckduckgo.com/?q=Pollo&t=opera&ia=web" target="_blank">Pollo</a>
+                <ol class="list-element__food-view">
+                    <li><span class="list__element--description" >Pollo</span>
                         <figure>
-                            <img class="imageElliot" src="../imagenes/pollo.jpg" alt="pollo" />
+                            <a href="https://duckduckgo.com/?q=Pollo&t=opera&ia=web" target="_blank"><img class="imageElliot" src="../imagenes/pollo.jpg" alt="pollo" /></a>
                         </figure>
                     </li>                   
                 </ol>
 
-                <ol>
-                    <li><a href="https://duckduckgo.com/?q=Carne Molida&t=opera&ia=web" target="_blank">carne molida</a>
+                <ol class="list-element__food-view">
+                    <li><span class="list__element--description">carne molida</span>
                         <figure>
-                            <img class="imageElliot" src="../imagenes/carne_molida.jpg" alt="carne molida" />
+                            <a href="https://duckduckgo.com/?q=Carne Molida&t=opera&ia=web" target="_blank"><img class="imageElliot" src="../imagenes/carne_molida.jpg" alt="carne molida" /></a>
                         </figure>
                     </li>
                 </ol>
@@ -62,37 +79,37 @@
             </li>         
         </ul>
 
-        <ul class="inLine">          
-            <li>
-                <p>Verduras</p>  
+        <ul class="main-content__list-block">          
+            <li class="list__element">
+                <p class="list__element--title">Verduras</p>  
 
-                <ol>
-                    <li><a  href="https://duckduckgo.com/?q=Limon&t=opera&ia=web" target="_blank">Limon</a>
+                <ol class="list-element__food-view"> 
+                    <li><span class="list__element--description">Limon</span>
                         <figure>
-                            <img class="imageElliot" src="../imagenes/limon.jpg" alt="limon" />
+                            <a  href="https://duckduckgo.com/?q=Limon&t=opera&ia=web" target="_blank"><img class="imageElliot" src="../imagenes/limon.jpg" alt="limon" /></a>
                         </figure>
                     </li>
                 </ol>
 
-                <ol>
-                    <li><a href="https://duckduckgo.com/?q=Zanahoria&t=opera&ia=web" target="_blank">Zanahoria</a>
+                <ol class="list-element__food-view">
+                    <li><span class="list__element--description">Zanahoria</span>
                         <figure>
-                            <img class="imageElliot" src="../imagenes/zanahoria.jpg" alt="zanahoria" />
+                            <a href="https://duckduckgo.com/?q=Zanahoria&t=opera&ia=web" target="_blank"><img class="imageElliot" src="../imagenes/zanahoria.jpg" alt="zanahoria" /></a>
                         </figure>
                     </li>
                 </ol>
 
             </li>         
         </ul>
-
-        <footer>
-        <p>Creado con amor</p>
-        </footer>
     </main>
+    <footer>
+        <div class="description"><span>Creado con amor</span></div>
+        
+    </footer>
     <hr/>
             <section>
                 <article>
-                    <h1>Parte de Felipe Joto</h1>
+                    <!-- <h1>Parte de Felipe Joto</h1> -->
                 </article>
             </section>
     <hr>
