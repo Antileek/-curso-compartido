@@ -1,33 +1,100 @@
-.imageElliot{
-width: 40%;
-display: inline-block;
-background-color: #007a79;
-    padding: 5px;
-}
-
-.inLine{
+*{
     padding: 0;
-    height: 400px;
-    display: inline-table;
-    width: 33%;
-    list-style: none;
-    background-color: #313c33;
+    margin: 0;
+    
 }
-.inLine p{
-    text-align: center;
-    background-color: #007a79;
-
+.imageElliot{
+height: 150px;
+width: 50%;
+display: inline-block;
+padding: 3px;
+}
+.imageElliot:hover{
+    padding: 3px;
+    background-color: #7e0f12;
 }
 
-body footer{
+.description{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-color: #002a29;
+    background-color: #313c33;
     padding: 2% 0 2% 0;
     text-align: center;
 }
-.mainElliot{
+.main-content{
     display: inline-block;
-    padding: 0;
-    margin: 0;
+    width: 100%;
+    background-color:white;
+}
+.main-content__list-block{
+    display: inline-flex;
+    width: calc(33% - 21px);
+    list-style: none;
+    padding: 3px;
+    margin: 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #7e0f12 ;
+}
+.list__element{
+    text-align: center;
+    list-style: none;
+
+}
+.list-element__food-view{
+    text-align: center;
+    list-style-type:none;
+    
+}
+
+.header-block{
+    display: inline-flex;
+    height: 64px;
+    width: 100%;
+    background-color: #7e0f12; 
+}
+.header-content {
+    display: inline-table;
+    height: 60px;    
+    box-sizing: border-box;
+    
+}
+.header-content__logo{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    width: 20%;
+}
+.header-content__logo--over:hover{
+    background-color: blanchedalmond;
+}
+
+.header-content__title{
+    padding-top: 20px;
+    padding-left: 30%;
+    width: 40%;
+    font-size: 30px;
+    display: inline-flex;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.header-block__nav{
+    padding-top: 30px;
+    box-shadow: none;
+    color: #9b9b9b;
+    width: 20%;
+    size: 30px;
+    border:0;
+}
+
+.list__element--title{
+    background-color: #7e0f12;
+    color: white;
+    font-size: 20px;
+}
+.list__element--description{
+    color: #7e0f12;
+    font-size: 20px;
 }
