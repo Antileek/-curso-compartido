@@ -1,0 +1,17 @@
+.ImagenFelipe{
+    width: 170px;
+}
+.enLinea{
+background-color: greenyellow;
+width: 30%;
+display: inline-flex;
+}
+.titulo{
+    background-color: indianred;
+    font-size: 35px;
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+
+}
+
