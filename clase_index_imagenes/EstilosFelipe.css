@@ -1,13 +1,10 @@
-.ImagenFelipe{
-    width: 170px;
-}
-.enLinea{
-background-color: greenyellow;
-width: 30%;
-display: inline-flex;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .titulo{
-    background-color: indianred;
+    background-color: #EE7155;
     font-size: 35px;
     text-align: center;
     height: 60px;
@@ -15,3 +12,38 @@ display: inline-flex;
 
 }
 
+.ImagenFelipe{
+    width: 150px;
+    border: black solid 2px;
+}
+.main-list__block{
+background-color: #E5F1F6;
+width: 100%;
+display: inline-flex;
+list-style: none;
+border-radius: 4px;
+}
+
+.main-list__element{
+    padding-left: 5px;
+    width: 100%;
+}
+.main-list__block a {
+    text-decoration: none;
+}
+
+.main-list__block p {
+    text-align: center;
+    font-size: 20px;
+    background-color: #7DC9E7;
+}
+
+.mainFelipe{
+    background-color: #FFFF;
+}
+.main-list__item {
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    width: 50%;
+}
