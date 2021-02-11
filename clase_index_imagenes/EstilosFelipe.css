@@ -4,18 +4,20 @@
     margin: 0;
 }
 .titulo{
-    background-color: #EE7155;
-    font-size: 35px;
-    text-align: center;
+    background-color: #ee7155;
+    font-size: 20px;
     height: 60px;
-    padding-top: 15px;
-
+    padding-top: 8px;
+    width: 100%;
+}   
+.titulo h1{
+padding-left: 47%;
 }
-
 .ImagenFelipe{
-    width: 150px;
-    border: black solid 2px;
+    height: 100%;
+    width: 100%;
 }
+
 .main-list__block{
 background-color: #E5F1F6;
 width: 100%;
@@ -24,10 +26,6 @@ list-style: none;
 border-radius: 4px;
 }
 
-.main-list__element{
-    padding-left: 5px;
-    width: 100%;
-}
 .main-list__block a {
     text-decoration: none;
 }
@@ -41,9 +39,29 @@ border-radius: 4px;
 .mainFelipe{
     background-color: #FFFF;
 }
+
 .main-list__item {
     text-align: center;
     list-style: none;
     display: inline-block;
-    width: 50%;
+    width: 100%;
+    border: black solid 2px;
+    margin: 10px;
+}
+.main-list__item_name{
+    background-color: green;
+    padding: 1px;
+    width: 100%;
+    
+}
+
+.main-list__item div {
+    width: 100%;
+}
+
+.logo{
+    width: 10%;
+    height: 50px;
+    float: left;
+    padding-bottom: 5px;
 }
