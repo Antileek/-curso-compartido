@@ -71,8 +71,8 @@ padding: 3px;
 
 .header-content__title{
     padding-top: 20px;
-    padding-left: 30%;
-    width: 40%;
+    padding-left: 35%;
+    width: 65%;
     font-size: 30px;
     display: inline-flex;
     text-align: center;
@@ -84,9 +84,9 @@ padding: 3px;
     padding-top: 30px;
     box-shadow: none;
     color: #9b9b9b;
-    width: 20%;
-    size: 30px;
+    width: 10%;
     border:0;
+
 }
 
 .list__element--title{
