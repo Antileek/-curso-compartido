@@ -9,26 +9,23 @@ h1{
     margin-bottom: 10px;
 }
 
-#page-title{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 .title{
     font-size: 18px;
     font-family: monospace;
 }
 
-#main-nav{
+.nav{
     margin-top: 10px;
     list-style-type: none;
     padding-left: 0px;
 }
 
-#main-nav li{
+.nav li{
     display: inline-block;
 }
 
-#main-nav a {
+.nav a {
     color: white;
     background-color: #13a4a4;
     padding: 5px;
@@ -36,6 +33,6 @@ h1{
     text-decoration: none;
 }
 
-#main-nav .blog{
+.nav .blog{
     background-color: red;
 }
