@@ -58,3 +58,20 @@ body{
     height: 200px;
     border: 2px solid blue;
 }
+@media screen and (max-width: 320px){
+
+    .main-content_title{
+        width: 320px;
+        color: white;
+        font-size: 4rem;
+        padding: 0 5px;
+        text-align: center;
+        border: 2px solid white;
+        position: relative;
+        bottom: 850px;
+        border-radius: 5px;
+        letter-spacing: 15px;
+        background-color: black;
+        margin:auto;
+    }
+}
