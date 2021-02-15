@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    margin: auto;
+}
+
+.conteiner{
+    display: inline-block;
+    border: 2px black solid;
+    height: 400px;
+    width: 500px;
+}
+
+#small{
+    background-color:darkslategray;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 23%;
+    left: 32%;
+    border-radius: 10px;
+}
+
+#big{
+    background-color: darkturquoise;
+    position: absolute;
+    top: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-conteiner{
+    margin: auto;
+    background-color: hotpink ;
+    width: 50%;
+    height: 50%;
+}
+
+.elliot{
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+.titulo{
+    text-align: center;
+}
+.big-content{
+    width: 90%;
+    margin: auto;
+}
+
+#small h2{
+    color: white;
+    text-align: center;
+    margin-top: 8px;
+}
