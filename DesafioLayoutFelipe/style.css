@@ -27,7 +27,7 @@ header{
 /* sidebar */
 .side-bar{
     background-color: green;
-    width: 25%;
+    width: 20%;
     height: 900px;
     position: absolute;
 }
@@ -40,7 +40,7 @@ header{
 
 /* content */
 main{
-    margin-left: 25%;
+    margin-left: 20%;
     background-color: peru;
     height: 900px;
 }
@@ -64,6 +64,7 @@ footer{
     .menu a{
         font-size: 15px;
     }
+
     .side-bar{
         width: 25%;
     }
