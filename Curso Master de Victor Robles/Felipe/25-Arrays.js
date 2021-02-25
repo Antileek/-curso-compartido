@@ -20,10 +20,10 @@ document.write("<h1>Lenguajes de programacion del 2018</h1>");
 }
  */
 
-/*  lenguajes.forEach((elemento, indice) => {
+ lenguajes.forEach((elemento, indice) => {
     document.write("<li>" + elemento + "</li>");
  });
- */
+
  for(let lenguaje in lenguajes){
     document.write("<li>" + lenguajes[lenguaje] + "</li>");
  }

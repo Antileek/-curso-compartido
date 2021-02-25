@@ -32,3 +32,28 @@ for(let valor in todosLosDivs){
   
 }
 seccion.append(hr);
+
+var divsRojos = document.getElementsByClassName('rojo');
+var divsAmarillos = document.getElementsByClassName('amarillo');
+divsAmarillos[0].style.background = "yellow";
+var div;
+for(div in divsRojos){
+    if(divsRojos[div].className == "rojo"){
+        divsRojos[div].style.background = "red";
+    }
+}
+
+//QUERY SELECTOR
+
+/* var id = document.querySelector('#encabezado');
+console.log(id); */
+
+var claseRojo = document.querySelectorAll("div.rojo");
+console.log(claseRojo);
+
+/* var etiqueta = document.querySelector("div");
+console.log(etiqueta); */
+
+claseRojo.forEach((elemento) =>{
+    console.log(elemento);
+});
